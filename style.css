@@ -1,0 +1,192 @@
+/** {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 0vh;
+  background: #F8F8F8;
+}
+
+/* Header/Blog Title 
+.titulo {
+  font-family: Ink Free;
+  padding: 4vh;
+ 
+  text-align: left;
+  background: #ffe5d1;
+}
+
+
+.titulo h1 {
+  font: Ink Free;
+  font-size: 10vh;
+  color: #ff8a34;
+}
+
+/* Style the top navigation bar 
+.navegacao {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #ff8a34;
+}
+
+/* Style the topnav links 
+.navegacao a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2vh 4vh;
+  text-decoration: none;
+}
+
+/* Change color on hover 
+.navegacao a:hover {
+  background-color: #ffe5d1;
+  color: #ff8a34;
+}
+
+.principal {
+  border-radius: 15px;
+  background-color:#fff5ee;
+  padding: 20px;
+  margin-top: 20px;
+}
+*/
+
+
+
+.titulo {
+  font-family: Calibri;
+  float: left;
+  text-align: left;
+  background: #ffe5d1;
+  height: 100vh;
+  width: 60vh;
+}
+
+.formulario{
+	font-family: Ink Free;
+	 font-weight: bold;
+}
+
+input[type=text]{
+	outline: none;
+	border: 1px;
+    border-radius: 2px;
+    padding: 1vh 8vh;
+    padding-left: 40px;
+}
+
+input[type=text]:focus {
+	outline: none;
+    border: 1px solid orange;
+}
+
+input[type=password]{
+	outline: none;
+	border: 1px;
+    border-radius: 2px;
+    padding: 1vh 8vh;
+    padding-left: 40px;
+}
+
+input[type=password]:focus {
+	outline: none;
+    border: 1px solid orange;
+}
+
+.formulario{
+	padding-left: 10vh;
+}
+
+input[type=button]{
+	font-family: Ink Free;
+	font-weight: bold;
+	font-size: 3vh;
+	height: 5vh;
+	width:12vh;
+	background: white;
+	border-color: white;
+
+}
+
+input[type=button]:focus {
+	outline: none;
+    border: 1px solid orange;
+}
+
+a:link, a:visited {
+  color: black;
+  padding-left: 10vh;
+  text-decoration: none;
+}
+
+.slider {
+	background: red;
+	border-radius: 5px;
+    display: block;
+    height: 100vh;
+    width: 130vh;
+    margin: auto;
+    position: relative;
+    float: right;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+
+/*label dos botoes*/
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    border-radius: 5px;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: : 0px;
+}
+
+.slider li:nth-child(2) label {
+    left: : 0px;
+}
+
+.slider li:nth-child(3) label {
+    left:  0px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+/*<font size="5" face="Ink Free">*/
