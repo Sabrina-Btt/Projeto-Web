@@ -1,83 +1,26 @@
-/** {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  padding: 0vh;
-  background: #F8F8F8;
-}
-
-/* Header/Blog Title 
-.titulo {
-  font-family: Ink Free;
-  padding: 4vh;
- 
-  text-align: left;
-  background: #ffe5d1;
-}
-
-
-.titulo h1 {
-  font: Ink Free;
-  font-size: 10vh;
-  color: #ff8a34;
-}
-
-/* Style the top navigation bar 
-.navegacao {
-  position: -webkit-sticky; 
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-  background-color: #ff8a34;
-}
-
-/* Style the topnav links 
-.navegacao a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 2vh 4vh;
-  text-decoration: none;
-}
-
-/* Change color on hover 
-.navegacao a:hover {
-  background-color: #ffe5d1;
-  color: #ff8a34;
-}
-
-.principal {
-  border-radius: 15px;
-  background-color:#fff5ee;
-  padding: 20px;
-  margin-top: 20px;
-}
-*/
-
-
+/*
+* { margin: 0; padding: 0; }
 
 .titulo {
   font-family: Calibri;
   float: left;
   text-align: left;
   background: #ffe5d1;
-  height: 100vh;
-  width: 60vh;
+  height: 589px;
+  width: 366px;
+  padding-top: 20px;
 }
 
 .formulario{
 	font-family: Ink Free;
-	 font-weight: bold;
+	font-weight: bold;
 }
 
 input[type=text]{
 	outline: none;
 	border: 1px;
     border-radius: 2px;
-    padding: 1vh 8vh;
+    padding: 6.1px 48.8px;
     padding-left: 40px;
 }
 
@@ -90,7 +33,7 @@ input[type=password]{
 	outline: none;
 	border: 1px;
     border-radius: 2px;
-    padding: 1vh 8vh;
+    padding: 6.1px 48.8px;
     padding-left: 40px;
 }
 
@@ -100,15 +43,15 @@ input[type=password]:focus {
 }
 
 .formulario{
-	padding-left: 10vh;
+	padding-left: 61px;
 }
 
 input[type=button]{
 	font-family: Ink Free;
 	font-weight: bold;
-	font-size: 3vh;
-	height: 5vh;
-	width:12vh;
+	font-size: 18.3px;
+	height: 30.5px;
+	width: 73.2px;
 	background: white;
 	border-color: white;
 
@@ -121,18 +64,18 @@ input[type=button]:focus {
 
 a:link, a:visited {
   color: black;
-  padding-left: 10vh;
+  padding-left: 61px;
   text-decoration: none;
 }
 
 .slider {
      display: block;
-     height: 293px;
-     width: 600px;
+     height: 609px;
+     width: 897px;
      margin: auto;
-     margin-top: 20px;
      position: relative;
-     left: 10px;
+     float: left;
+     background: red;
 }
 
 .slider li {
@@ -145,6 +88,7 @@ a:link, a:visited {
     height: 100%;
     width: 100%;
     vertical-align: top;
+
 }
 
 .slider input {
@@ -183,4 +127,25 @@ a:link, a:visited {
     opacity: 1;
     visibility: visible;
     z-index: 10;
+}
+*/
+
+/*.login{
+	background-image: url(imgLogin.png);
+}
+
+.label{
+	background-color: white;
+	height: 200px;
+	width: 350px;
+}*/
+
+
+.formulario {
+  background-image: url(imgLogin.png);
+  font-family: Calibri;
+  text-align: left;
+  height: 589px;
+  width: 1263px;
+  
 }
